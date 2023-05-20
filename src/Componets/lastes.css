@@ -1,0 +1,48 @@
+.mycard{
+    position: relative;
+}
+.blurr{
+    filter: blur(3px);
+
+}
+.more{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.678);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    z-index: 5;
+}
+.more div{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+}
+.morelist{
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    width: 100px;
+    /* height: 200px;s */
+    background-color: white;
+    border-radius: 10px;
+    text-align: start;
+}
+.morelist p{
+    padding: 0 10px;
+    margin: 0;
+    line-height: 30px;
+}
+.morelist p:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
